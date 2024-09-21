@@ -1,0 +1,64 @@
+digraph tree {
+	"(val: 0.0, idx: 101, rnd:[0.0871293])" [label="subject<=0.0", shape=circle]
+	"(val: 0.0, idx: 2, rnd:[0.0202184])" [label="http<=0.0", shape=circle]
+	"(val: 0.0, idx: 115, rnd:[0.77423369])" [label="stop<=0.0", shape=circle]
+	"(val: 0.0, idx: 161, rnd:[0.11827443])" [label="energy<=0.0", shape=circle]
+	"(val: 0.0, idx: 226, rnd:[0.83261985])" [label="thanks<=0.0", shape=circle]
+	"(val: 0.0, idx: 162, rnd:[0.45615033])" [label="remove<=0.0", shape=circle]
+	"(val: 0.0, idx: 61, rnd:[0.6818203])" [label="send<=0.0", shape=circle]
+	"(val: 0.0, idx: 73, rnd:[0.52184832])" [label="gas<=0.0", shape=circle]
+	"(val: 0.0, idx: 222, rnd:[0.63992102])" [label="management<=0.0", shape=circle]
+	"(val: 4.0, idx: 284, rnd:[0.77815675])" [label="\<=4.0", shape=circle]
+	"(val: 0.0, idx: 108, rnd:[0.79915856])" [label="dollars<=0.0", shape=circle]
+	"(val: 0.0, idx: 73, rnd:[0.61209572])" [label="gas<=0.0", shape=circle]
+	"(val: 0.0, idx: 2, rnd:[0.56843395])" [label="http<=0.0", shape=circle]
+	"(val: 0.0, idx: 174, rnd:[0.06022547])" [label="back<=0.0", shape=circle]
+	"(val: 0.0, idx: 333, rnd:[0.3595079])" [label="contains<=0.0", shape=circle]
+	"(val: -1 rnd:[0.41466194])" [label="-1", shape=circle]
+	"(val: -1 rnd:[0.26455561])" [label="-1", shape=circle]
+	"(val: -1 rnd:[0.94466892])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.14335329])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.97861834])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.87001215])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.46147936])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.78052918])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.94374808])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.616934])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.0187898])" [label="-1", shape=circle]
+	"(val: -1 rnd:[0.6176355])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.66676672])" [label="1", shape=circle]
+	"(val: 1 rnd:[0.67063787])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.43703195])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.6976312])" [label="1", shape=circle]
+
+	"(val: 0.0, idx: 101, rnd:[0.0871293])" -> "(val: 0.0, idx: 2, rnd:[0.0202184])"
+	"(val: 0.0, idx: 101, rnd:[0.0871293])" -> "(val: 0.0, idx: 115, rnd:[0.77423369])"
+	"(val: 0.0, idx: 2, rnd:[0.0202184])" -> "(val: 0.0, idx: 226, rnd:[0.83261985])"
+	"(val: 0.0, idx: 2, rnd:[0.0202184])" -> "(val: 0.0, idx: 161, rnd:[0.11827443])"
+	"(val: 0.0, idx: 115, rnd:[0.77423369])" -> "(val: 0.0, idx: 162, rnd:[0.45615033])"
+	"(val: 0.0, idx: 115, rnd:[0.77423369])" -> "(val: 0.0, idx: 61, rnd:[0.6818203])"
+	"(val: 0.0, idx: 161, rnd:[0.11827443])" -> "(val: 0.0, idx: 222, rnd:[0.63992102])"
+	"(val: 0.0, idx: 161, rnd:[0.11827443])" -> "(val: 0.0, idx: 73, rnd:[0.52184832])"
+	"(val: 0.0, idx: 226, rnd:[0.83261985])" -> "(val: 4.0, idx: 284, rnd:[0.77815675])"
+	"(val: 0.0, idx: 226, rnd:[0.83261985])" -> "(val: 0.0, idx: 108, rnd:[0.79915856])"
+	"(val: 0.0, idx: 162, rnd:[0.45615033])" -> "(val: 0.0, idx: 2, rnd:[0.56843395])"
+	"(val: 0.0, idx: 162, rnd:[0.45615033])" -> "(val: 0.0, idx: 73, rnd:[0.61209572])"
+	"(val: 0.0, idx: 61, rnd:[0.6818203])" -> "(val: 0.0, idx: 333, rnd:[0.3595079])"
+	"(val: 0.0, idx: 61, rnd:[0.6818203])" -> "(val: 0.0, idx: 174, rnd:[0.06022547])"
+	"(val: 0.0, idx: 73, rnd:[0.52184832])" -> "(val: -1 rnd:[0.41466194])"
+	"(val: 0.0, idx: 73, rnd:[0.52184832])" -> "(val: -1 rnd:[0.26455561])"
+	"(val: 0.0, idx: 222, rnd:[0.63992102])" -> "(val: 1 rnd:[0.14335329])"
+	"(val: 0.0, idx: 222, rnd:[0.63992102])" -> "(val: -1 rnd:[0.94466892])"
+	"(val: 4.0, idx: 284, rnd:[0.77815675])" -> "(val: 1 rnd:[0.87001215])"
+	"(val: 4.0, idx: 284, rnd:[0.77815675])" -> "(val: -1 rnd:[0.97861834])"
+	"(val: 0.0, idx: 108, rnd:[0.79915856])" -> "(val: -1 rnd:[0.46147936])"
+	"(val: 0.0, idx: 108, rnd:[0.79915856])" -> "(val: 1 rnd:[0.78052918])"
+	"(val: 0.0, idx: 73, rnd:[0.61209572])" -> "(val: 1 rnd:[0.616934])"
+	"(val: 0.0, idx: 73, rnd:[0.61209572])" -> "(val: -1 rnd:[0.94374808])"
+	"(val: 0.0, idx: 2, rnd:[0.56843395])" -> "(val: -1 rnd:[0.0187898])"
+	"(val: 0.0, idx: 2, rnd:[0.56843395])" -> "(val: -1 rnd:[0.6176355])"
+	"(val: 0.0, idx: 174, rnd:[0.06022547])" -> "(val: 1 rnd:[0.66676672])"
+	"(val: 0.0, idx: 174, rnd:[0.06022547])" -> "(val: 1 rnd:[0.67063787])"
+	"(val: 0.0, idx: 333, rnd:[0.3595079])" -> "(val: -1 rnd:[0.43703195])"
+	"(val: 0.0, idx: 333, rnd:[0.3595079])" -> "(val: 1 rnd:[0.6976312])"
+}

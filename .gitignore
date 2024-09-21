@@ -2,8 +2,6 @@
 .ipynb_checkpoints/
 __pycache__
 *.npy
-data/
-outputs/
 PRML_Assignment1.pdf
 PRML_Assignment2.pdf
 PRML_Assignment3.pdf

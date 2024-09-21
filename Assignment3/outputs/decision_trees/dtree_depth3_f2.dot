@@ -1,0 +1,32 @@
+digraph tree {
+	"(val: 0.0, idx: 101, rnd:[0.5488135])" [label="subject<=0.0", shape=circle]
+	"(val: 0.0, idx: 2, rnd:[0.71518937])" [label="http<=0.0", shape=circle]
+	"(val: 0.0, idx: 115, rnd:[0.96366276])" [label="stop<=0.0", shape=circle]
+	"(val: 0.0, idx: 161, rnd:[0.64589411])" [label="energy<=0.0", shape=circle]
+	"(val: 0.0, idx: 226, rnd:[0.60276338])" [label="thanks<=0.0", shape=circle]
+	"(val: 0.0, idx: 162, rnd:[0.38344152])" [label="remove<=0.0", shape=circle]
+	"(val: 0.0, idx: 61, rnd:[0.56804456])" [label="send<=0.0", shape=circle]
+	"(val: -1 rnd:[0.891773])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.43758721])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.4236548])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.54488318])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.79172504])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.52889492])" [label="1", shape=circle]
+	"(val: -1 rnd:[0.92559664])" [label="-1", shape=circle]
+	"(val: 1 rnd:[0.07103606])" [label="1", shape=circle]
+
+	"(val: 0.0, idx: 101, rnd:[0.5488135])" -> "(val: 0.0, idx: 2, rnd:[0.71518937])"
+	"(val: 0.0, idx: 101, rnd:[0.5488135])" -> "(val: 0.0, idx: 115, rnd:[0.96366276])"
+	"(val: 0.0, idx: 2, rnd:[0.71518937])" -> "(val: 0.0, idx: 226, rnd:[0.60276338])"
+	"(val: 0.0, idx: 2, rnd:[0.71518937])" -> "(val: 0.0, idx: 161, rnd:[0.64589411])"
+	"(val: 0.0, idx: 115, rnd:[0.96366276])" -> "(val: 0.0, idx: 162, rnd:[0.38344152])"
+	"(val: 0.0, idx: 115, rnd:[0.96366276])" -> "(val: 0.0, idx: 61, rnd:[0.56804456])"
+	"(val: 0.0, idx: 161, rnd:[0.64589411])" -> "(val: 1 rnd:[0.43758721])"
+	"(val: 0.0, idx: 161, rnd:[0.64589411])" -> "(val: -1 rnd:[0.891773])"
+	"(val: 0.0, idx: 226, rnd:[0.60276338])" -> "(val: 1 rnd:[0.54488318])"
+	"(val: 0.0, idx: 226, rnd:[0.60276338])" -> "(val: -1 rnd:[0.4236548])"
+	"(val: 0.0, idx: 162, rnd:[0.38344152])" -> "(val: -1 rnd:[0.79172504])"
+	"(val: 0.0, idx: 162, rnd:[0.38344152])" -> "(val: 1 rnd:[0.52889492])"
+	"(val: 0.0, idx: 61, rnd:[0.56804456])" -> "(val: -1 rnd:[0.92559664])"
+	"(val: 0.0, idx: 61, rnd:[0.56804456])" -> "(val: 1 rnd:[0.07103606])"
+}
