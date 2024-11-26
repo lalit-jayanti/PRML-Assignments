@@ -3,7 +3,7 @@
 ## File structure
 ```python
 ├── Assignment{x}
-│   ├── data                    # To store given the datasets
+│   ├── data                    # To store the given datasets
 │   ├── outputs                 # All the final plots, tables are saved here
 │   ├── Report.pdf              # Detailed report 
 │   └── scripts                 # Implementations for the models 
